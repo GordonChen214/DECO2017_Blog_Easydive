@@ -1,11 +1,21 @@
 ---
-title: Post Title
-date: 2026-02-14
-author: Your Name
-summary: Short description
+title: "Compare different functional directions and determine the core system priorities of Easy Dive"
+date: 2026-04-17
+author: "Guanwei Chen"
+summary: Based on the preliminary community needs analysis, this blog compares and evaluates various functional directions of the diving community platform, clarifying the core functions and priority structure of Easy Dive from the three perspectives of user value, technical complexity, and implementation feasibility.
 tags:
-  - tag1
-  - tag2
-  - tag3
+  - functional-requirements
+  - trade-offs
+  - feature-analysis
 ---
-Write your content here.
+In the previous stage of analysis, I proposed a preliminary idea for Easy Dive as a multi-functional diving community platform, covering various functions such as dive site information logging, buddy matching, social communication, and personal profile management. However, after thinking further, I realized that simply integrating multiple functions does not directly translate into an effective system design. Conversely, too many features can increase system complexity, reduce user experience, and introduce uncontrollable technical risks during development. Therefore, the focus of this stage is to conduct a comparative analysis of different functional directions, and on this basis, clarify the core priorities of the system.
+
+First, I summarize the current functional vision into three main directions. The first direction is to focus on "potential partner matching", emphasizing the connection and collaboration between users. In this direction, the platform's main goal is to help divers find the right buddies and match them based on diving experience, certificate level, and interest preferences. This direction directly responds to the need for safety and collaboration in diving activities, so it has high user value. However, this direction may involve more complex logical designs, such as the definition of matching rules and the structured representation of user information.
+
+The second direction is to take "submersible information" as the core, emphasizing the recording and sharing of environmental data. In this mode, the platform is more like a dive information database, allowing users to record and view the environmental characteristics of different dive sites, such as current intensity, visibility, temperature, and common organisms. This direction is relatively technically easy to implement, mainly based on standard database read and write operations, and can provide users with practical information support. However, its limitation lies in the weak community interaction, which makes it difficult to fully reflect the "community connection" nature emphasized by BlaBla Corp.
+
+The third approach centers on 'social interaction and record-keeping,' including dive logs, personal profiles, and interactions between users. This approach helps increase user engagement, making the platform more valuable for long-term use. However, it overlaps to some extent with the features of existing social platforms, and without distinctive design, it may be difficult to showcase the project's uniqueness. Additionally, a complete social system (such as real-time chat) is technically complex to implement and may go beyond the reasonable scope of the current project.
+
+Based on the above comparison, I have decided not to completely abandon any particular direction, but instead to organize the functions using a layered priority approach. Among them, 'Buddy Matching' and 'Dive Site Information' are defined as core functions because they are directly related to the safety of diving activities and decision support, providing users with clear and unique value. Functions like 'Social Communication' and 'Dive Log' are categorized as auxiliary functions, which can be implemented in a simplified manner if time and technical conditions permit, or further expanded in subsequent iterations. 
+
+This prioritization not only helps control system complexity but also makes the development process more manageable. For example, by prioritizing the implementation of dive plans based on dive sites and user participation mechanisms, basic social collaboration needs can be met without relying on a complex real-time communication system. This trade-off reflects a balance between functional completeness and technical feasibility.
