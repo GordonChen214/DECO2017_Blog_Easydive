@@ -1,8 +1,8 @@
 ---
-title: Understanding the community needs in diving and defining the scope of Easy Dive
+title: "Understanding the community needs in diving and defining the scope of Easy Dive"
 date: 2026-04-17
-author: Guanwei Chen
-summary: This article focuses on the design requirements of BlaBla Corp's community hub and analyzes the core needs and existing issues of diving community. Observations indicate taht diving-related information and social interactions are currently highly fragmented across multiple platforms, resulting in low efficiency and inconsistent information when users plan diving activities. Moreover, because diving carried certain risks, mismatches between different dive site environments and users' abilities may pose potential safety hazards. Based on these findings, this article proposes the initial concept of Easy Dive, which seeks to integrate multiple functions such as dive site information, dive buddy matching, social interactions, and personal profiles to build a more centralized and efficient community platform. However, multi-function integration also introduces system complexity, so subsequent design efforts will focus on prioritizing features to balance user needs and user experience.
+author: "Guanwei Chen"
+summary: This article explores the design requirements of a diving community hub and identifies key user needs and challenges.
 tags:
   - tag1: User_Needs
   - tag2: Design_Brief_Analysis
