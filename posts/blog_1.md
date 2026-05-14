@@ -4,9 +4,9 @@ date: 2026-04-17
 author: "Guanwei Chen"
 summary: This article explores the design requirements of a diving community hub and identifies key user needs and challenges.
 tags:
-  -User_Needs
-  -Design_Brief_Analysis
-  -Project_Scope
+  - User_Needs
+  - Design_Brief_Analysis
+  - Project_Scope
 ---
 In this project, I need to design a 'community hub' for BlaBla Corp, which is an online communication and interaction platform built around specific interest groups. Unlike general social media, the core of a community hub lies in customized design catering to the needs of a specific group, thereby providing more targeted functions and experiences. Therefore, the key to this project is not simply replicating the features of existing social platforms, but identifying the real needs of a particular community and building a meaningful functional structure accordingly.
 I chose to define the target community as the 'diving community.' This choice stems not only from my personal diving experience but also from my observation of the diving activity itself. Unlike many hobbies, diving has a strong dependence on social interaction and safety. Divers usually need companions for their activities and also rely on reliable information to assess diving site environments and risks. This means that the diving community requires not only social connections but also information sharing and collaborative decision-making.
